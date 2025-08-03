@@ -1,4 +1,3 @@
-```markdown
 # Basti Ki Pathshala Foundation - Backend API
 
 A Node.js backend API for managing volunteers and interns registration for Basti Ki Pathshala Foundation.
@@ -6,7 +5,7 @@ A Node.js backend API for managing volunteers and interns registration for Basti
 ## 🚀 Features
 
 - **User Registration**: Allow volunteers and interns to register with the foundation
-- **Admin Access**: View all registered users (admin only access with secret key)
+- **Admin Access**: View all registered users (admin-only access with secret key)
 - **Secure**: Password hashing with bcrypt
 - **Modern**: Built with ES6+ modules and async/await
 
@@ -134,7 +133,7 @@ Register a new volunteer or intern.
 ```
 
 #### 2. Get All Users (Admin Only)
-Retrieve list of all registered users.
+Retrieve a list of all registered users.
 
 - **URL**: `GET /allUsers`
 - **Access**: Admin only
@@ -167,7 +166,7 @@ x-admin-key: your_admin_secret_key
 - **Password Hashing**: All passwords are hashed using bcrypt before storage
 - **Admin Protection**: Admin endpoints protected with secret key verification
 - **Data Validation**: Input validation for all required fields
-- **Password Exclusion**: Passwords never returned in API responses
+- **Password Exclusion**: Passwords are never returned in API responses
 
 ## 🧪 Testing
 
@@ -229,7 +228,4 @@ This project is licensed under the ISC License.
 
 
 ---
-
-
 **Built with ❤️ for Basti Ki Pathshala Foundation**
-```
