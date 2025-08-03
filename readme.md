@@ -22,7 +22,7 @@ A Node.js backend API for managing volunteers and interns registration for Basti
 ## 📁 Project Structure
 ```
 
-Bkp-Foundation/
+Backend/
 ├── package.json
 ├── index.js \# Main application entry point
 ├── models/
@@ -34,8 +34,7 @@ Bkp-Foundation/
 ├── routes/
 │ └── user.routes.js \# API routes
 ├── config/
-│ └── db.js \# Database connection
-└── README.md
+└── db.js \# Database connection
 
 ```
 
@@ -45,7 +44,7 @@ Bkp-Foundation/
 
 - Node.js (v14+ recommended)
 - MongoDB database
-- npm or yarn
+- npm
 
 ### Installation
 
